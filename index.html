@@ -5,47 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrueTrack - Race Wheel Alignment Specialists</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-        header {
-            position: relative;
-            text-align: center;
-        }
-
-        header img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        header h1 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #fff5ef; /* Text color */
-        }
-        /* Add any additional styles specific to this HTML file */
-        .image-section {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-
-        .image-section img {
-            max-width: 40%;
-            height: auto; /* Maintain aspect ratio */
-        }
-
-        .image-section .text {
-            max-width: 60%; /* Adjust as needed */
-        }
-
-        @media (max-width: 768px) {
-            .image-section {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
 </head>
 <body>
 
@@ -105,14 +65,18 @@
 
     <!-- Add more image-sections and text sections as needed -->
 
-    <section id="contact">
-        <h2>Contact TrueTrack</h2>
-        <p>For inquiries and appointments, please call or text us at:</p>
-        <p>
-            <strong>Phone:</strong> <a href="tel:1801661791">+1 (801) 661-7791</a><br/>
-            <strong>Text:</strong> <a href="sms:18016617791">+1 (801) 661-7791</a><br/>
-        </p>
-    </section>
+    <div class="floating-bar">
+        <div>
+            <button>
+                <a href="tel:18016617791" class="fas fa-phone-alt">Call Us</a>
+            </button>
+        </div>
+        <div>
+            <button>
+                <a href="sms:18016617791" class="fas fa-comment-alt">Text Us</a>
+            </button>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2024 TrueTrack - Race Wheel Alignment Specialists. All rights reserved.</p>

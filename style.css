@@ -72,11 +72,79 @@ a:hover {
     color: #29398a;
 }
 
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff5ef; /* Text color */
+}
+/* Add any additional styles specific to this HTML file */
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    max-width: 40%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-section .text {
+    max-width: 60%; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+    .image-section {
+        flex-direction: column;
+    }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     section {
         padding: 30px;
     }
+}
+
+.floating-bar 
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #29398a; /* Adjust color as needed */
+    color: #fff; /* Text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.floating-bar button {
+    background: #888;
+    border: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+    flex: 1;
+}
+
+.floating-bar button a {
+    text-decoration: none;
+    margin-right: 5px;
 }
 
 /* Dark mode styles */
