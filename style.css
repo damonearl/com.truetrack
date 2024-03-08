@@ -89,7 +89,8 @@ header h1 {
     transform: translate(-50%, -50%);
     color: #fff5ef; /* Text color */
 }
-/* Add any additional styles specific to this HTML file */
+/* Add or update the following styles in your existing CSS */
+
 .image-section {
     display: flex;
     align-items: center;
@@ -98,9 +99,22 @@ header h1 {
 }
 
 .image-section img {
-    max-width: 40%;
-    height: auto; /* Maintain aspect ratio */
+    max-width: 40%; /* Set the maximum width to 40% on desktop */
+    height: auto;
+    border: none; /* Remove the border */
 }
+
+@media (max-width: 768px) {
+    .image-section {
+        flex-direction: column; /* Stack on mobile */
+    }
+
+    .image-section img {
+        max-width: 100%; /* Full width on mobile */
+        margin-bottom: 20px; /* Add space between images on mobile */
+    }
+}
+
 
 .image-section .text {
     max-width: 60%; /* Adjust as needed */
