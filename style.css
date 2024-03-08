@@ -117,7 +117,7 @@ header h1 {
 
 
 .image-section .text {
-    max-width: 60%; /* Adjust as needed */
+    max-width: 100%; /* Adjust as needed */
 }
 
 @media (max-width: 768px) {
