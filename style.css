@@ -37,6 +37,10 @@ section {
     color: #000;
 }
 
+ul {
+    list-style-position: inside; /* Align bullet points next to the text */
+}
+
 .services {
     background-color: #fff5ef;
 }
