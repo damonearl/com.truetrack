@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #29398a;
+    color: #fff5ef;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #d83a2b;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff5ef;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.services {
+    background-color: #fff5ef;
+}
+
+footer {
+    background-color: #29398a;
+    color: #fff5ef;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Modernize section headers */
+h2 {
+    color: #d83a2b;
+}
+
+/* Add a subtle shadow on sections for depth */
+section {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links */
+a {
+    color: #d83a2b;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #29398a;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    section {
+        padding: 30px;
+    }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
+    header {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+
+    nav {
+        background-color: #363636;
+    }
+
+    nav a {
+        color: #fff;
+    }
+
+    section {
+        color: #fff;
+    }
+
+    .services {
+        background-color: #363636;
+    }
+
+    footer {
+        background-color: #1a1a1a;
+    }
+
+    h2 {
+        color: #d83a2b;
+    }
+
+    a {
+        color: #d83a2b;
+    }
+
+    a:hover {
+        color: #29398a;
+    }
+}
