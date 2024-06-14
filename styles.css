@@ -18,6 +18,7 @@ header {
 
 button {
     border:0;
+    background-color: transparent;
 }
 
 nav {
@@ -169,7 +170,7 @@ header h1 {
 }
 
 .floating-bar a:hover {
-    background-color: #273493; /* Change background color on hover */
+    background-color: #777; /* Change background color on hover */
 }
 
 .floating-bar a i {
